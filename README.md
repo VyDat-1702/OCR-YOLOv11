@@ -18,17 +18,17 @@ This design allows the detection and recognition components to be trained, optim
 
 ```
 Input Image / Video
-│
-▼
+        │
+        ▼
 YOLO (Text Line Detection)
-│
-▼
+        │
+        ▼
 Crop Detected Text Regions
-│
-▼
+        │
+        ▼
 OCR Model (Text Recognition)
-│
-▼
+        │
+        ▼
 Recognized Text Output
 ```
 
@@ -61,11 +61,9 @@ Recognized Text Output
 First, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/VyDat-1702/OCR-YOLOv11.git
+cd  OCR-YOLOv11/
 ```
-
-> **Note:** Replace `yourusername/your-repo-name` with your actual GitHub repository path.
 
 ### 4.2. Requirements
 
