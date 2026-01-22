@@ -1,0 +1,27 @@
+root_dir: ocr_dataset
+blank_char: "-"
+
+seed: 0
+val_size: 0.1
+test_size: 0.1
+shuffle: true
+
+img_height: 100
+img_width: 420
+
+train_batch_size: 64
+test_batch_size: 128
+
+hidden_size: 256
+n_layers: 3
+dropout: 0.2
+unfreeze_layers: 3
+
+epochs: 120
+lr: 0.001
+weight_decay: 0.00001
+max_grad_norm: 2
+patience: 5
+
+save_model_path: model/ocr_crnn.pt
+early_stop_path: early_stop_model.pt

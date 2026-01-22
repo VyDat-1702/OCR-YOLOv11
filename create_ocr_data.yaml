@@ -1,0 +1,3 @@
+data_path: SceneTrialTrain
+xml_path: SceneTrialTrain/word.xml
+save_dir: ocr_dataset

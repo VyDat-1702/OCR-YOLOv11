@@ -1,0 +1,10 @@
+data_path: SceneTrialTrain
+xml_path: SceneTrialTrain/word.xml
+save_yolo_data_dir: yolo_data
+train_size: 0.7
+val_size: 0.15
+test_size: 0.15
+seed: 42
+shuffle: true
+class_id: 0
+class_name: text
