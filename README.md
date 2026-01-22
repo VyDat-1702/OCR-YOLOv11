@@ -143,4 +143,4 @@ python System_Inference.py
 
 ## Demo
 
-![OCR Demo](video/demo_video.gif)
+<img src="video/demo_video.gif" width="30%" alt="OCR Demo">
