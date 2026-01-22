@@ -69,7 +69,7 @@ cd your-repo-name
 
 ### 4.2. Requirements
 
-- Python ≥ 3.9
+- Python ≥ 3.10
 - Conda (recommended)
 - NVIDIA GPU with CUDA support (optional but recommended)
 
@@ -78,7 +78,7 @@ cd your-repo-name
 Create and activate a conda environment:
 
 ```bash
-conda create -n pytorch_env python=3.10
+conda create -n pytorch_env python=3.12
 conda activate pytorch_env
 ```
 
@@ -129,10 +129,7 @@ The trained OCR model is saved in the `model/` directory.
 Run the complete OCR pipeline on images or videos:
 
 ```bash
-python System_Inference.py \
-  --yolo_model model/yolo.pt \
-  --ocr_model model/ocr.pt \
-  --input video/demo.mp4
+python System_Inference.py
 ```
 
 **Output:**
@@ -145,15 +142,3 @@ python System_Inference.py \
 - It is not recommended to commit large trained model files (`.pt`) directly to the repository.
 - Use Git LFS or download trained models from releases or external storage if needed.
 - Ensure you have sufficient disk space for datasets and training outputs.
-
-## 9. License
-
-[Add your license information here]
-
-## 10. Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 11. Contact
-
-[Add your contact information or links here]
