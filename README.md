@@ -140,3 +140,7 @@ python System_Inference.py
 - It is not recommended to commit large trained model files (`.pt`) directly to the repository.
 - Use Git LFS or download trained models from releases or external storage if needed.
 - Ensure you have sufficient disk space for datasets and training outputs.
+
+## Demo
+
+![OCR Demo](video/demo_video.gif)
